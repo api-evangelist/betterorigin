@@ -1,8 +1,16 @@
 aid: betterorigin
-name: betterorigin
-description: betterorigin is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Better Origin
+description: >-
+  Better Origin is a UK-based agritech company decarbonizing the food chain by
+  converting food waste into sustainable, locally produced animal feed. Its core
+  technology is a fully automated, AI-controlled containerized insect farm that
+  breeds black soldier fly larvae to consume food waste and produce nutrient-rich
+  insect-based ingredients for pet food, poultry feed, and aquaculture. The
+  systems are remotely monitored and controlled by software and require no
+  specialist knowledge from operators. Better Origin is a portfolio company of
+  Balderton Capital and was added to the API Evangelist network as a company
+  profile; it does not currently publish a public API, developer portal, or
+  technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/betterorigin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://betterorigin.co.uk/wp-content/uploads/2020/05/logo2.svg
 tags:
 - Company
+- Agriculture
+- AgTech
+- Sustainability
+- Food Waste
+- Insect Farming
+- Animal Feed
+- Circular Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/betterorigin-domain-security.yml
 - type: Website
   url: https://betterorigin.co.uk/
+- type: Blog
+  url: https://betterorigin.co.uk/blog/
+- type: TermsOfService
+  url: https://betterorigin.co.uk/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://betterorigin.co.uk/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
